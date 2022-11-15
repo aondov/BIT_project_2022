@@ -12,7 +12,7 @@
 
 It is highly recommended to review the source code before running the script, and also to run the script via the command line, not by running the .exe file (it might not work). The encryption mechanism isn’t currently set to any folder path, therefore it is important to change it to test its functionality. Even though there is a decryption function present in the repository, it is still dangerous to encrypt your files without any reason to do so. 
 
-To change the path, which should be encrypted, search for the command ”os.chdir(<path>)” (located at the top of the script) and change the path. When changing the path in the PyArmor encryption script, it is required to change the path in the original encryption.py file and then obfuscate it using a simple command described in section 4.2.1 (see the documentation).
+To change the path, which should be encrypted, search for the command **”os.chdir(<path>)”** (located at the top of the script) and change the path. When changing the path in the PyArmor encryption script, it is required to change the path in the original encryption.py file and then obfuscate it using a simple command described in section 4.2.1 (see the documentation).
 
 Also, it is important to run the decryption script from the folder, where the encrypt key is located, or it won’t be able to decrypt any files.
 

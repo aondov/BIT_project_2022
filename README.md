@@ -35,6 +35,16 @@ The output of this assignment should be a document, where each goal from the sec
 
 ---
 
+## Manual
+
+In order to test the encryption process and the obfuscation methods, simply run the "encrypt.py" or "full_script.py" (if the decryption is needed) to encrypt/decrypt a specific folder and all of the files included in it. Every other requirement is handled by the script, from installing the required packages to generating and applying the encryption key to encrypt files. Same applies to the decryption process - only requirement to decrypt your files is to input a password. This password is located in the source code in the **"full_script.py"** file.
+
+Obfuscation was mainly done manually with the exception of using **PyArmor**. See the documentation in the repository to understand how to use PyArmor to obfuscate a source code.
+
+See the **Disclaimer** part to avoid encrypting your data accidentally, or encrypting the incorrect data.
+
+---
+
 ## Repository layout
 
 In this repository, all of the Python files can be found, including the original script, which allows using a decryption function (the password is located in the source code).

